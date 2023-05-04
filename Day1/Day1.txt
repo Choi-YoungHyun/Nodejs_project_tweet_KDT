@@ -1,0 +1,70 @@
+노드js 설치  (LTS는 안정화 버전)
+https://nodejs.org/
+
+노드 설치 확인
+cmd -> node -v -> 버전 확인
+
+역사
+-HTML, CSS, JavaScript (SpiderMonkey, JavascriptCore, V8, Chakara)
+
+2009
+-라이언 달(1981년생 개발자)
+-자바스크립트로 프론트도 구성하고, 백엔드도 구성하면 하나의언어로 풀 스텍을 구성 할수 있지 않을까  
+-JavaScript everywher0
+ 
+    brower                       nodejs
+
+    Dom API                      console
+    Network API                  Crypto
+    Audio/Video API              HTTP
+    (브라우저 안 화상챗팅)        File
+    Storage API                  OS
+    console.log
+    ...
+
+-가장 많이 사용되는 언어(플랫폼)으로 선정(2021년 스텍오버플로우 조사): 전세계 50%
+-넷플릭스, 우버, 이베이, 페이팔,쿠팡,네이버,카카오톡...
+
+
+🔴노드의 중요한 특징(4가지)
+- JavaScript Runtime 환경이다.
+    - JavaScript 엔진
+    - 오픈 소스(c++기반)
+    - high performance
+
+- Single Thread
+
+- Non-Blocking I/O
+
+- Event-Driven
+
+cf) Node.js로 서버를 만들었다
+
+스레드의 개수는 스레드의 서버 갯수와 비례한다.(1개의 서버에 스레드가 정해져 있어서)
+
+
+기존 서버: 스레드 1개당 서버 1개 할당(멀티스레드)
+
+
+싱글스레드가 빠름
+멀티스레드- 1개의 cpu로 각각의 스레드를 동시에 처리하다보니 부하도 많이 걸리고 느려질 수 있다.
+
+===========================
+
+웹 API안에 최상위 객체는 window
+
+==============================
+terminal 실행 방법
+🔴node (파일명:1.global)  - js 빼고!
+
+
+
+
+================================
+🔴import 시
+npm = python pip같은 것
+조건:package.js 가 같은 폴더 안에 있어야댐
+
+사용법:
+npm init -y (package.js 생성자 확인)
+package.js를 들어가서 ("type":"module" 입력)
